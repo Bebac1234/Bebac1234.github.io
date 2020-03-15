@@ -3,32 +3,40 @@ h2{
 }
 
 header{
-  background-color: red;
-  height: 200px;
+  background-color: #DEF2F1;
+  height: 100px;
   width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+  background: #fff;
+  overflow: hidden;
 }
 
 nav{
-  background-color: Green;
+  background-color: #17252A;
   height: 50px;
   width: 100%;
+  text-align: center;
 }
 
 main{
-background-color: Purple;
+background-color: #DEF2F1;
 height: 425px;
 width: 70%;
 
 }
 
 aside{
-background-color: blue;
+background-color: #DEF2F1;
 height: 425px;
 width: 30%;
 }
 
+
 footer{
-background-color: orange;
+background-color: #DEF2F1;
 height: 75px;
 width: 100%;
 
@@ -41,18 +49,102 @@ width: 100%;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+
 }
+
+#bild{
+  height: 50%;
+  width: 50;
+  border-radius: 10px;
+
+}
+
+#headerWrapper{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#Datorn{
+  width: 34%;
+  height: 100%;
+  text-align: left;
+  color: #17252A;
+  font-family: arial;
+  text-decoration: none;
+  position: relative;
+  top: -20px;
+
+
+}
+
+
+.button1{
+  background-color: none;
+  border: none;
+  color: #17252A;
+  padding: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-transform: none;
+  transition:  .2s;
+  margin-top: 5px;
+  position: relative;
+  right: -200px;
+  top: 50%;
+
+
+
+}
+
+.button1:hover{
+  background-color: none;
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
+.button1:active{
+  background-color: none;
+  text-decoration: underline;
+  transform: scale(1);
+
+}
+
+
 @media only screen and (max-width: 600px) {
 
   #mainwrapper{
     display: flex;
     flex-direction: column;
-  }
-  main{
-    width:100%;
-  }
-  aside{
-    width:100%;
-  }
-  
 }
+
+}
+a:link{
+  color: #3AAFA9;
+  text-decoration: none;
+}
+
+
+ .Rubrik{
+   font-weight: bold;
+   text-decoration: underline;
+   font-size: 20px;
+   color: #FEFFFF;
+ }
+
+ .information{
+   color: #DEF2F1;
+ }
+
+ .logo{
+width: 40px;
+height: 40px;
+position: relative;
+top: 10px;
+ }
