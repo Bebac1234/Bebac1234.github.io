@@ -71,7 +71,7 @@ width: 100%;
   height: 100%;
   text-align: left;
   color: #17252A;
-  font-family: arial;
+  font-family: sans-serif;
   text-decoration: none;
   position: relative;
   top: -20px;
@@ -96,7 +96,7 @@ width: 100%;
   transition:  .2s;
   margin-top: 5px;
   position: relative;
-  right: -200px;
+  right: -100px;
   top: 50%;
 
 
@@ -135,11 +135,13 @@ a:link{
    font-weight: bold;
    text-decoration: underline;
    font-size: 20px;
-   color: #FEFFFF;
+   color: #17252A;
+  font-family: sans-serif;
  }
 
  .information{
-   color: #DEF2F1;
+   color: #17252A;
+   font-family: sans-serif;
  }
 
  .logo{
