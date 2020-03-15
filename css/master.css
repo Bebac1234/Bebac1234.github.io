@@ -150,3 +150,20 @@ height: 40px;
 position: relative;
 top: 10px;
  }
+
+ .komponent-bild{
+   width: 300px;
+   height: 300px;
+   position: relative;
+   top: 30px;
+   left: 30px;
+ }
+
+
+ .RAM-bild{
+   width: 300px;
+   height: 200px;
+   position: relative;
+   top: 70px;
+   left: 30px;
+ }
