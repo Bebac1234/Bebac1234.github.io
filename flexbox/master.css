@@ -1,0 +1,55 @@
+
+#wrapper{
+  width: 80%;
+  margin-left:auto;
+  margin-right: auto;
+
+}
+
+header{
+  width: 100%;
+  height: 200px;
+  background-color: #1D06F5;
+  position: relative;
+}
+
+nav{
+  position: absolute;
+  bottom: 0px;
+
+}
+#left{
+  width: 20%;
+  height: 400px;
+  background-color: #1202A8;
+
+}
+
+main{
+  width: 60%;
+  height: 400px;
+  background-color: #351FFF;
+}
+
+#right{
+  width: 20%;
+  height: 400px;
+  background-color: #1202A8;
+
+}
+
+#container{
+  display: flex;
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: #1D06F5;
+}
+
+@media screen and (max-width:500px){
+  #wrapper{
+    width: 100%;
+  }
+}
