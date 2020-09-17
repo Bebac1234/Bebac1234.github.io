@@ -52,4 +52,18 @@ footer{
   #wrapper{
     width: 100%;
   }
+  #container{
+    flex-direction: column;
+  }
+
+  #left{
+    width: 100%;
+  }
+  main{
+    width: 100%;
+  }
+
+  #right{
+    width: 100%;
+  }
 }
