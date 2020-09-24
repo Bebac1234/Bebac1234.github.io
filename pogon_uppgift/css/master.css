@@ -62,7 +62,7 @@ nav{
   #container{
     margin-left: 0;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 70px;
     grid-template-columns: 100%;
     grid-template-areas:
     "1"
@@ -72,4 +72,7 @@ nav{
 
   }
 
+}
+p{
+  margin-top: 525px;
 }
